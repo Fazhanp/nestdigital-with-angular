@@ -1,0 +1,8 @@
+.center-links {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .carousel-item img {
+    height: 650px;
+    object-fit: cover;
+  }

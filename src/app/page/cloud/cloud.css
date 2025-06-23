@@ -1,0 +1,25 @@
+.navbar-logo {
+      height: 40px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+    .navbar-logo:hover {
+      transform: scale(1.1);
+    }
+    .nav-link {
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: #6610f2 !important;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(102, 16, 242, 0.2);
+      transition: all 0.3s ease;
+    }
+    .hover-shadow-lg:hover {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    }

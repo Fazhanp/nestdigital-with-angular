@@ -1,0 +1,72 @@
+<header class="bg-gradient-primary text-white text-center py-5" style="background: linear-gradient(90deg, #0d6efd, #6610f2);">
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3">Our Services</h1>
+    <p class="lead fs-5 fst-italic">Empowering your business with innovation and technology</p>
+  </div>
+</header>
+
+<!-- Services Grid -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row g-4 text-center">
+
+      <div class="col-md-6 col-lg-3">
+         <a routerLink='/digital' class="text-decoration-none text-dark">
+       <div class="card h-100 border-0 shadow hover-shadow-lg text-decoration-none text-dark" 
+       [routerLink]="'/digital'" style="cursor: pointer;">
+    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80"
+         class="card-img-top" alt="Digital Transformation">
+    <div class="card-body">
+      <h5 class="card-title fw-semibold">Digital Transformation</h5>
+      <p class="card-text">Modernizing business processes with cutting-edge digital solutions.</p>
+    </div>
+  </div>
+         </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+         <a routerLink='/cyber' class="text-decoration-none text-dark">
+ <div class="card h-100 border-0 shadow hover-shadow-lg text-decoration-none text-dark"
+       [routerLink]="'/cyber'" style="cursor: pointer;">
+    <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=800&q=80"
+         class="card-img-top" alt="Cybersecurity" style="object-fit: cover; height: 200px;">
+    <div class="card-body">
+      <h5 class="card-title fw-semibold">Cybersecurity</h5>
+      <p class="card-text">Protecting data and infrastructure through advanced security services.</p>
+    </div>
+  </div>
+         </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+         <a routerLink='/software' class="text-decoration-none text-dark">
+ <div class="card h-100 border-0 shadow hover-shadow-lg text-decoration-none text-dark"
+       [routerLink]="'/software'" style="cursor: pointer;">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+         class="card-img-top" alt="Software Development" style="object-fit: cover; height: 200px;">
+    <div class="card-body">
+      <h5 class="card-title fw-semibold">Software Development</h5>
+      <p class="card-text">Building custom applications to meet your business needs.</p>
+    </div>
+  </div>
+
+         </a>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+         <a routerLink='/cloud' class="text-decoration-none text-dark">
+        <div class="card h-100 border-0 shadow hover-shadow-lg text-decoration-none text-dark" 
+       [routerLink]="'/cloud'" style="cursor: pointer;">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+         class="card-img-top" alt="Cloud Services">
+    <div class="card-body">
+      <h5 class="card-title fw-semibold">Cloud Services</h5>
+      <p class="card-text">Scalable cloud solutions for flexibility and growth.</p>
+    </div>
+  </div>
+         </a>
+      </div>
+
+    </div>
+  </div>
+</section>

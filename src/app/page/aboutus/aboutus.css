@@ -1,0 +1,54 @@
+/* Navbar logo size */
+    .navbar-logo {
+      height: 40px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+    .navbar-logo:hover {
+      transform: scale(1.1);
+    }
+    /* Nav links styling */
+    .nav-link {
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: #6610f2 !important;
+    }
+    /* Dropdown hover effect */
+    .dropdown-menu a.dropdown-item:hover {
+      background-color: #6610f2;
+      color: #fff;
+    }
+    /* Section headings */
+    h2, h3 {
+      letter-spacing: 0.07em;
+    }
+    /* Mission & Vision cards hover effect */
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(102, 16, 242, 0.3);
+      transition: all 0.3s ease;
+    }
+    /* Core values cards */
+    .core-value-card {
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      cursor: default;
+    }
+    .core-value-card:hover {
+      box-shadow: 0 12px 20px rgba(13, 110, 253, 0.3);
+      transform: translateY(-6px);
+    }
+    /* Call to action button */
+    .btn-light {
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .btn-light:hover {
+      background-color: #6610f2;
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(102, 16, 242, 0.5);
+    }

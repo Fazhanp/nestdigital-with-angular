@@ -1,0 +1,40 @@
+.navbar-logo {
+      height: 40px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+    .navbar-logo:hover {
+      transform: scale(1.1);
+    }
+    .nav-link {
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      transition: color 0.3s ease;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: #6610f2 !important;
+    }
+    .dropdown-menu a.dropdown-item:hover {
+      background-color: #6610f2;
+      color: #fff;
+    }
+    h2, h3 {
+      letter-spacing: 0.07em;
+    }
+    .contact-card {
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .contact-card:hover {
+      box-shadow: 0 10px 25px rgba(102, 16, 242, 0.3);
+      transform: translateY(-6px);
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
